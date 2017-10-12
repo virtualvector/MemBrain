@@ -32,16 +32,22 @@
                 android:layout_alignParentStart="true"
                 android:padding="20sp">
                 <RadioButton
+                    android:onClick="onRadioButtonClicked"
                     android:layout_width="wrap_content"
+                    android:id="@+id/radio_2digit"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="2-digits"/>
                 <RadioButton
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio_3digit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="3-digits"/>
                 <RadioButton
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio_4digit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -54,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:textSize="75sp"
+                android:textSize="50sp"
 
                 />
 

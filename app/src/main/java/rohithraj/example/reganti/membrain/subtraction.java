@@ -21,7 +21,7 @@ public class subtraction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subtraction);
         Intent i = getIntent();
-        Toast.makeText(this, i.getStringExtra("sub"), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, i.getStringExtra("sub"), Toast.LENGTH_SHORT).show();
 
         questionTextViewSub=(TextView)findViewById(R.id.question_textView_sub);
         option1ButtonSub =(Button)findViewById(R.id.option_1_button_sub);
