@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rohithraj.example.reganti.membrain.MainActivity"
+
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3b5998"
+        android:columnCount="1"
+        android:paddingBottom="0dp"
+        android:rowCount="4"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/addition_button"
+
+            android:layout_width="match_parent"
+            android:layout_margin="5sp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="#8b9dc3"
+            android:onClick="goAddtionActivity"
+            android:text="Addition" />
+
+        <Button
+            android:id="@+id/subtraction_button"
+
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="#dfe3ee"
+            android:onClick="goSubtractionActivity"
+            android:text="subtraction" />
+
+        <Button
+            android:id="@+id/multiplication_button"
+
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_margin="5sp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="#8b9dc3"
+            android:text="Multiplication" />
+
+        <Button
+            android:id="@+id/series_button"
+
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:background="#dfe3ee"
+            android:paddingBottom="0dp"
+            android:text="series" />
+
+
+    </GridLayout>
+
+</android.widget.RelativeLayout>
